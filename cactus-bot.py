@@ -21,5 +21,5 @@ async def on_message(message):
     if message.content.startswith('hello'):
         await message.channel.send('Heya, pardner!')
 
-print(TOKEN)
+
 client.run(TOKEN)
